@@ -11,7 +11,7 @@ describe Task do
 		expect(task.priority).to eq(10)
 	end
 
-	describe "#completed" do
+	describe "#complete?" do
 		context "uncompleted" do
 			it "is not complete" do
 				expect(Task.new('Pay bills').complete?).to be false
