@@ -1,8 +1,10 @@
 # todo
 Simple Todo List
 
-For this lesson your job is to get the tests to pass by adding the missing code to **lib/task.rb**
-**lib/todo_list.rb**
+For this lesson your job is to do the following things:
+* Create a new class called Product
+* Make Product inherit from Task
+* Make sure all the tests pass, especially those in product_spec
 
 ## Getting started
 * install required gems
